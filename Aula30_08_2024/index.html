@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Area de Cadastro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Cadastro de Usuário</h1>
+        </header>
+        <main>
+            <h2>Preencha os dados abaixo</h2>           
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"><br>
+                <label for="usuario">Nome de Usuário:</label>
+                <input type="text" name="usuario" id="usuario"><br>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha"><br>
+                <label for="mail">Email:</label>
+                <input type="email" name="mail" id="mail"><br>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade"><br>
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento"><br>
+                <label for="genero">Gênero:</label>
+                <select name="genero" id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select><br>
+            </fieldset>        
+            <fieldset>
+                <legend>Preferências</legend>
+                <label for="noticias">Deseja receber notícias?</label>
+                <input type="checkbox" name="noticias" id="noticias"><br>
+                <label for="contato">Meio preferido de contato:</label>
+                <select name="contato" id="contato">
+                    <option value="email">Email</option>
+                    <option value="telefone">telefone</option>
+                </select><br>
+                <label for="sobre">Sobre você:</label><br>
+                <textarea name="sobre" id="sobre" rows="5" cols="50" placeholder="Fale um pouco sobre você"></textarea><br>
+            </fieldset>         
+            <label for="newsletter">Deseja receber nossa newsletter?</label>
+            <input type="checkbox" name="newsletter" id="newsletter"><br>
+            <button>Enviar</button>
+            <button>Limpar</button>
+        </main>
+        <footer>
+            <hr>
+            <p>&copy;2024 - Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

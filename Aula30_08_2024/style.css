@@ -1,0 +1,13 @@
+legend {
+    color: blue;
+    font-weight: bold;
+}
+
+label, input, select, textarea {
+    padding: 3px;
+    margin: 6px;
+}
+
+button {
+    margin: 5px;
+}
