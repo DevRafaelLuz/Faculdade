@@ -1,6 +1,12 @@
+header {
+    background-color: lightgray;
+    padding: 8px;
+}
+
 legend {
     color: blue;
     font-weight: bold;
+    padding: 5px;
 }
 
 label, input, select, textarea {
